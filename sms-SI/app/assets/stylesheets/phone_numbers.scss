@@ -1,0 +1,108 @@
+// Place all the styles related to the phone_numbers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* Initial body */
+body {
+  border-bottom: 0px solid #636366;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: center;
+  background-color: gray;
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Dark-Geometric-Semi-Dark-Seamleass-Pattern-for-website-backgrounds.jpg");
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+/* .nav {
+	background-image: url("http://compustition.com/projects/instructions_for_peace_booklet/images/nav_bar.png");
+	overflow: hidden;
+	width: 1500px;
+	height: 70px;
+} */
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul {
+	list-style-type: none;
+	cursor: pointer;
+	display: inline;
+	text-align: center;
+	position: center;
+	top: 100%;
+	left: 50%;
+}
+input {
+	position: relative;
+	text-align: center;
+	top: 20px;
+	left: 40%;
+	font-size: 14px;
+	padding-bottom: 10px;
+  	padding-left: 57px;
+  	padding-right: 57px;
+  	padding-top: 10px;
+}
+.navcontainer {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+	font-weight: bold;
+}
+.redButton {
+	background-color: red;
+	text-align: center;
+	position: relative;
+	width: 224.0px;
+	top: 35px;
+	left: 40%;
+	border: 20px;
+	padding-bottom: 10px;
+  	padding-top: 10px;
+  	padding-left: 63px;
+  	padding-right: 63px;
+	color: white;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.redButton:hover {
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0.8;
+	background-color: red;
+	border: 0px;
+	padding-bottom: 10px;
+  	padding-left: 60px;
+  	padding-top: 10px;
+  	padding-right: 59px;
+	color: white;
+	margin: 0;
+}
+.notification {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}

@@ -1,0 +1,27 @@
+ <div class="nav">
+  	<img src="/navBar.png" width="2000" height="60"/>
+    <div class="navcontainer">
+	    <ul>
+	        <li>Try our new SMS powered by Twilio!</li>
+	    </ul>
+	</div>
+  </div>
+  <br>
+ <div class="jumbotron">
+	<div class="container">
+		<div id="send-sms">
+		  <%= form_for @phone_number, remote: true do |f| %>
+		    <div class="form-group">
+		      <%= f.text_field :phone_number, :placeholder => "800-123-4567", :maxlength => 12, :size => 14, :required => true  %>
+		    </div>
+		    <%= f.submit "Send SMS", class: "redButton", id: 'send-sms-link' %>
+		  <% end %>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+  <% if flash[:notification] %>
+    <div class="notification"><%= flash[:notification] %></div>
+  <% end %>
+</div>

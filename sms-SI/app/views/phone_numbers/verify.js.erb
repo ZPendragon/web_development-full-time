@@ -1,0 +1,10 @@
+<% if @phone_number.verified %>
+  $('#status-box').removeClass()
+  $('#status-box').addClass('alert')
+  $('#status-message').text('Message Sent!')
+<% else %>
+  $('#status-box').removeClass()
+  $('#status-box').addClass('alert')
+  $('#status-message').text("Sorry, that is an invalid number")
+<% end %>
+$('#status-box').fadeToggle()
